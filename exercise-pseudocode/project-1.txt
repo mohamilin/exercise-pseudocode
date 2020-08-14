@@ -1,0 +1,13 @@
+Buatlah Algoritma untuk menyelesaikan problem ini : 
+    David memiliki program yang membutuhkan untuk convert data dari jumlah jam ke detik
+    Contohnya jika program memiliki input 2 jam maka output yang diharapkan adalah 7200 detik
+
+Solve :
+
+STORE "jam" with any number
+STORE "detik" without any number
+
+CALCULATE "jam" * 360
+SET "detik" value with calculation result
+DISPLAY "detik"
+
