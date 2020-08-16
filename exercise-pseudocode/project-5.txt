@@ -6,7 +6,7 @@ Buatlah Algoritma untuk menyelesaikan problem ini
             Jika nilai dapat dibagi dengan 3, program akan menghasilkan output text “Fizz”
             Jika nilai dapat dibagi dengan 5, program akan menghasilkan output text “Buzz”
 
-SOLVE
+//SOLVE
 
 STORE "number" with to 1
 STROE "N" with any integer
