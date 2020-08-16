@@ -5,3 +5,19 @@ Buatlah Algoritma untuk menyelesaikan problem ini
         Lakukan perulangan untuk cek kondisi berikut:
             Jika nilai dapat dibagi dengan 3, program akan menghasilkan output text “Fizz”
             Jika nilai dapat dibagi dengan 5, program akan menghasilkan output text “Buzz”
+
+SOLVE
+
+STORE "number" with to 1
+STROE "N" with any integer
+STORE "data" without any integer
+
+WHILE "number" <= "N"
+    DISPLAY "number"
+    IF "number" mod 3 equals to 0
+        DISPLAY "Fizz”
+    ELSE IF "number" mod 5 equals to 0
+        DISPLAY "Buzz”
+    ELSE
+        DISPLAY "data mod 3 or 5 not equals to 0"
+
