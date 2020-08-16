@@ -16,7 +16,7 @@ WHILE "i" < "N"
         SET "output" to ARRAY
         DISPLAY "output"
     ELSE 
-        DISPLAY 
+        DISPLAY "data not commpatible"
 
 
 
