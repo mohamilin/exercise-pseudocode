@@ -12,11 +12,13 @@ STORE "output" without any integer
 WHILE "i" < "N"
     ADD "i" by 1
     INCREAMENT i
-    IF "i" equals to "N"
+    IF "i" equals to "N" THEN
         SET "output" to ARRAY
         DISPLAY "output"
     ELSE 
         DISPLAY "data not commpatible"
+    ENDIF
+ENDWHILE
 
 
 

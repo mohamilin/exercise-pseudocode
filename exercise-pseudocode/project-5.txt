@@ -14,10 +14,12 @@ STORE "data" without any integer
 
 WHILE "number" <= "N"
     DISPLAY "number"
-    IF "number" mod 3 equals to 0
+    IF "number" mod 3 equals to 0 THEN
         DISPLAY "Fizz”
-    ELSE IF "number" mod 5 equals to 0
+    ELSE IF "number" mod 5 equals to 0 THEN
         DISPLAY "Buzz”
     ELSE
         DISPLAY "data mod 3 or 5 not equals to 0"
+    ENDIF
+ENDWHILE
 

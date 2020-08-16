@@ -9,10 +9,12 @@ Solve :
 STORE "number1" with any number
 STORE "number2" with any number 
 
-IF "number1 > "number2
+IF "number1 > "number2 THEN
     DISPLAY "number1" is largest
-IF ELSE 
+ELSE IF "number1 < "number2 THEN
     DISPLAY "number2" is largest
 ELSE 
     DISPLAY "number1" equal to "number2"
+ENDIF
+
 
